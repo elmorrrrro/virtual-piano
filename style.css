@@ -1,0 +1,50 @@
+body {
+    background-color: rgba(35, 44, 95, 0.712);
+}
+.white-keys {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.white-keys > kbd {
+    display: inline-block;
+    width: 70px;
+    height: 230px;
+    margin: 0;
+    border-style: groove;
+    background-color: white;
+    text-align: center;
+    z-index: -1;
+}
+.black-keys {
+    display: flex;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#T {
+    margin-left: 85px;
+    margin-right: 30px;
+}
+#Y, #U, #W {
+    margin-right: 30px;
+}
+#E {
+    margin-right: 20px;
+}
+#W {
+    margin-left: 29px;
+}
+.black-keys > kbd {
+    display: inline-block;
+    width: 40px;
+    height: 150px;
+    border-style: groove;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
